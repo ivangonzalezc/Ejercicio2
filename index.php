@@ -9,6 +9,7 @@
 $arrayConstructor = array(1,2,3,4,5);
 
 var_dump($arrayConstructor);
+echo "<br>";
 
 //2- [0] =
 
@@ -19,6 +20,7 @@ for ($i=0; $i< 5 ; $i++)
 }
 
 var_dump($arrayCorchete);
+echo "<br>";
 
 //3- push()
 
@@ -27,5 +29,7 @@ $arrayPush = array();
 array_push($arrayPush,rand(1,9),rand(1,9),rand(1,9),rand(1,9),rand(1,9));
 
 var_dump($arrayPush);
+echo "<br>";
+
 
 ?>
