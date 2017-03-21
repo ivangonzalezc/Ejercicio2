@@ -20,6 +20,12 @@ for ($i=0; $i< 5 ; $i++)
 
 var_dump($arrayCorchete);
 
+//3- push()
 
+$arrayPush = array();
+
+array_push($arrayPush,rand(1,9),rand(1,9),rand(1,9),rand(1,9),rand(1,9));
+
+var_dump($arrayPush);
 
 ?>
