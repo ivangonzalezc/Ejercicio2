@@ -8,6 +8,4 @@ $rectangulo = new Rectangulo(2,3);
 $rectangulo->SetColor("Azul");
 echo $rectangulo->Dibujar();
 
-$rectangulo->CalcularDatos();
-
 ?>

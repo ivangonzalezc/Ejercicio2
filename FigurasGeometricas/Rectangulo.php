@@ -9,6 +9,7 @@ class Rectangulo extends FigurasGeometricas
     {
        $this->_ladoUno = $lado1;
        $this->_ladoDos = $lado2;
+       $this->CalcularDatos();
     }
 
     protected function CalcularDatos()
@@ -16,7 +17,7 @@ class Rectangulo extends FigurasGeometricas
       $perimetro= $this->_ladoUno*2+$this->_ladoDos*2;
       $superficie = $this->_ladoUno*$this->_ladoDos;
 
-      echo $perimetro.$superficie;
+      echo $perimetro." ".$superficie;
     }
 
     public function Dibujar()
